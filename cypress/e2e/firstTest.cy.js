@@ -13,6 +13,5 @@ describe('My First Test', () => {
   it('clicking "root" navigates to a new url', () => {
     cy.contains('root').click()
 
-
   })
 })
